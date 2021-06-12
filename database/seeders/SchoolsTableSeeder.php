@@ -24,6 +24,6 @@ class SchoolsTableSeeder extends Seeder
             'name'=> 'Polash high school',
             'union'=> 'polash',
         ]);
-        School::factory(10)->create();
+        // School::factory(10)->create();
     }
 }

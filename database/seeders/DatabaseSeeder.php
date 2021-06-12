@@ -16,15 +16,15 @@ class DatabaseSeeder extends Seeder
         $this->call([
             RolesTableSeeder::class,
             UsersTableSeeder::class,
-            // MembersTableSeeder::class,
-            // ExamsTableSeeder::class,
-            // SchoolsTableSeeder::class,
-            // CentersTableSeeder::class,
-            // ApplicantsTableSeeder::class,
-            // SliderImagesTableSeeder::class,
-            // NoticesTableSeeder::class,
-            // AdvisorsTableSeeder::class,
-            // ActivitySeeder::class,
+            MembersTableSeeder::class,
+            ExamsTableSeeder::class,
+            SchoolsTableSeeder::class,
+            CentersTableSeeder::class,
+            ApplicantsTableSeeder::class,
+            SliderImagesTableSeeder::class,
+            NoticesTableSeeder::class,
+            AdvisorsTableSeeder::class,
+            ActivitySeeder::class,
         ]);
     }
 }
